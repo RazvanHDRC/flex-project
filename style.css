@@ -1,0 +1,186 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: R;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+
+}
+
+button {
+    background-color: #3882F6;
+    padding: 4px 18px;
+    color: white;
+    border-radius: 6px;
+    border-width: 0px;
+
+}
+
+.first-block {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    flex-direction: column;
+    padding: 10px 10%;
+}
+
+.text-image {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 30px
+}
+
+.upper-text > p {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+/**/
+
+.second-block {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-block-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 30px;
+}
+
+.dog-images {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 150px;
+    margin-bottom: 70px;
+}
+
+.dog > p {
+    text-align: center;
+}
+
+.dog > img {
+    border-radius: 10px;
+}
+
+/**/
+
+.third-block {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+/**/
+
+.fourth-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.bottom-add {
+    display: flex;
+    background-color: #3882F6;
+    padding: 35px;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.call-text {
+    color: white;
+}
+
+.call-text-title {
+    font-weight: 800;
+}
+
+.call-text-line {
+    font-weight: lighter;
+}
+
+.bottom-add > button {
+    border-color: white;
+    border-width: 2px;
+}
+
+/**/
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
